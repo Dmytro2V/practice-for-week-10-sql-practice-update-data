@@ -16,3 +16,13 @@ SET last_name = 'Smith'
     AND last_name = 'Tyler'
 ;
 SELECT * FROM friends;
+.print
+.print --------------------- BONUS PRACTICE --------------------
+.print ----------- trigger an UPDATE error
+UPDATE friends
+SET last_name = ''
+-- if setting = null instead cause not null error
+    WHERE id = 5
+    
+;
+SELECT * FROM friends;
