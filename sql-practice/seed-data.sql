@@ -14,4 +14,4 @@ VALUES
   ('Shannon', 'Noble'),
   ('River', 'Song');
 
-SELECT * FROM friends;
+
